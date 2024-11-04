@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.left {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(20, 237, 20, 0.822);
+  float: left;
+  color: black;
+  font-weight: bold;
+
+  padding: 20px;
+  width: 33.33%;
+}
+.main {
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(20, 237, 20, 0.822);
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  width: 33.33%;
+}
+.right {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(20, 237, 20, 0.822);
+  color: black;
+  font-weight: bold;
+  float: left;
+
+  padding: 20px;
+  width: 33.33%;
+}
+.overlay {
+  position: absolute;
+  top: 40%;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.footer {
+  text-align: center;
+  background-color: rgba(20, 237, 20, 0.822);
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+}
+.img {
+  width: 100%;
+  filter: brightness(40%);
+}
+@media screen and (max-width: 600px) {
+  .right,
+  .left,
+  .main {
+    width: 100%;
+    margin: 0.3px;
+  }
+}
